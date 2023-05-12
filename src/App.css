@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+#headertext {
+  font-family: "Roboto";
+  font-weight: 900;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#headertextsubtitle {
+  font-family: "Roboto Mono";
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#headertextsubsubtitle {
+  font-family: "Oswald";
+  font-weight: 200;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cicacontainer {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+}
+
+.catimage {
+  height: 400px;
+}
+
+.catname {
+  display: flex;
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 30px;
+  height: 100px;
+}
+
+.catbox {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 500px;
+}
+
+#headercontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 220px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#catpage {
+  display: flex;
 }
